@@ -1,0 +1,39 @@
+:root{
+
+}
+
+.container{
+	position: relative;
+    display: inline-block;
+    text-align: center;
+      
+
+}
+h3 {
+	position: absolute;
+	color: black;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+	
+}
+
+a{
+	 position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+
+
+
+.boton{
+	position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	
+}
