@@ -1,0 +1,31 @@
+.img1{
+	width: 100%;
+}
+.categoria{
+	
+	position: absolute;
+	color: black;
+    top: 8%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    
+}
+.ejemplo1{
+	position: absolute;
+    top: 20%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(90deg,rgb(18,92,225) 0%,rgb(0,10,255)100%);
+    border-radius: 4px;
+}
+.ejemplo2{
+	font-size: 2.4 rem;
+	padding: 2 rem 0;
+	width: 30 rem;
+	text-align: center;
+	margin-bottom: 1 rem;
+	text-decoration: none;
+	color: rgb(28, 26, 26);
+	background: linear-gradient(90deg,rgb(18,92,225) 0%,rgb(0,10,255)100%);
+	border-radius: 4px;
+}
