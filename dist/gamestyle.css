@@ -1,6 +1,12 @@
 :root{
 
 }
+body{
+	background-image: url(https://images.mediotiempo.com/maMJ-hEjYIFbn7KihlVvhX9ZDr8=/958x596/uploads/media/2021/09/29/juego-calamar-serie-exitosa-netflix.jpg);
+	width: 100%;
+	height: 100%;
+
+}
 
 .container{
 	width: 100vw;
@@ -12,6 +18,13 @@
     align-items: center;
       
 
+}
+.texto1{
+	color: white;
+	margin-top: 20px;
+}
+.texto2{
+	color: white;
 }
  h2{
  	position: absolute;
