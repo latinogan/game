@@ -16,12 +16,12 @@ body{
 }
 .choice-container{
 	display: flex;
-	margin-bottom: 0.50rem;
+	margin-bottom: 0.8rem;
 	width: 100px;
-	border-radius: 9px;
+	border-radius: 4px;
 	background: rgb(18, 93, 225);
 	font-size: 1rem;
-	min-width: 60rem;
+	min-width: 70rem;
 
 }
 .choice-container:hover{
@@ -32,11 +32,12 @@ body{
 }
 .choice-prefix{
 	padding: 2 rem 2.5rem;
-	color: white;
+     color: white;
+
 }
 .choice-text{
 	padding: 2 rem;
-	width: 100px;
+	width: 100%;
 	color: white;
 }
 .correct {
@@ -56,8 +57,10 @@ body{
 }
 
 .hud-prefix{
-	margin-right: 20px;
-	margin-top: 25px;
+	/*margin-right: 20px;
+	margin-top: 25px;*/
+	text-align: center;
+	font-size: 2rem;
 
 }
 .hud-main-text{
@@ -76,15 +79,16 @@ body{
 	background: rgb(11, 223, 36); 
 	width: 0%;
 }
-#puntaje{
+#score{
 	margin-left: 78%;
 }
-#respuesta{
+/*.question{
+
 	margin-top: 40px;
 	margin-right: 300px;
 	margin-bottom: 20px;
 	color: red;
-}
+}*/
 
 @media screen and (max-width: 768px){
 	.choice-container {

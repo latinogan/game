@@ -1,0 +1,31 @@
+body{
+	background-image: url(https://1.bp.blogspot.com/-Y9g59gHLYVg/YURg1gDto_I/AAAAAAAAAm0/_VEik0oi8dca-J_8nhltQruc8OyaLe7TQCLcBGAsYHQ/s640/vlcsnap-00003.png);
+	
+	object-fit: cover;
+}
+.container{
+	width: 100vw;
+	justify-content: center;
+
+	position: relative;
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+      
+}
+#end-text{
+	color: white;
+	margin-top: 80px;
+}
+#finalScore{
+	margin-top: 70px;
+	color: green;
+}
+
+
+
+@media screen and (max-width: 768px){
+	.choice-container {
+		min-width: 40 rem;
+	}
+}
