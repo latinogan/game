@@ -82,13 +82,17 @@ body{
 #score{
 	margin-left: 78%;
 }
-/*.question{
+.hud-prefix{
 
-	margin-top: 40px;
+	/*margin-top: 40px;
 	margin-right: 300px;
-	margin-bottom: 20px;
+	margin-bottom: 20px;*/
+	color: white;
+}
+#question{
 	color: red;
-}*/
+	text-align: center;
+}
 
 @media screen and (max-width: 768px){
 	.choice-container {
