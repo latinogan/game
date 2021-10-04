@@ -43,7 +43,7 @@ let questions= [
 },
 
 {
-	question:"cual es el mas alto de los amiferos",
+	question:"cual es el mas alto de los mamiferos",
     choice1:"el leon",
     choice2:"la jirafa",
     choice3:"el oso",
@@ -60,7 +60,7 @@ let questions= [
    answer:4,
 },
 {
-	question:"la anestesia de aplica al paciente",
+	question:"la anestesia se aplica al paciente",
     choice1:"para que duerma",
     choice2:"para el dolor",
     choice3:"para la pereza",

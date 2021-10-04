@@ -98,14 +98,14 @@ min-height:21%;
 }
 .exit{
 
-	margin-bottom: 0.8rem;
+	margin-bottom: 0.9rem;
 	width: 100px;
 	border-radius: 4px;
 	background: red;
-	font-size: 1rem;
+	font-size: 2rem;
 	min-width: 40rem;
 	color: black;
-	margin-right: 55%;
+	margin-right: 60%;
 
 }
 .exit:hover{

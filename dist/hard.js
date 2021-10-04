@@ -36,12 +36,12 @@ let questions= [
 },
 
 {
-	  question:"forma moleculas del agua",
+	  question:"forma molecular del agua"
       choice1:"HO",
       choice2:"HO2",
       choice3:"H20",
       choice4:"H2O2",
-      answer:2,
+      answer:3,
 },
 
 {

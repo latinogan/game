@@ -38,7 +38,7 @@ let questions= [
       choice1:"hello",
       choice2:"hey bro",
       choice3:"hola",
-      choice4:"Hi",
+      choice4:"wsp",
       answer:1,
 },
 
@@ -109,9 +109,9 @@ getNewQuestion = () => {
 choices.forEach(choice => {
 	choice.addEventListener("click", e =>{
 
-		if(! acceptingAnswers) return
+		if(!acceptingAnswers) return
 
-			acceptingAnswers = false
+		acceptingAnswers = false
 		const selectedChoice = e.target
 		const selectedAnswer = selectedChoice.dataset["number"]
 
