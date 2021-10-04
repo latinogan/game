@@ -1,4 +1,8 @@
 
 
 
-hola sofkianos para correr la pagina en mi github el link es 
+hola sofkianos gracias por la oportunidad 
+mi github es https://github.com/latinogan
+
+para verla en funcionamiento
+https://latinogan.github.io/game/dist/
