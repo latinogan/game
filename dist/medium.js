@@ -1,4 +1,4 @@
- 
+
 
 const question= document.querySelector("#question");
 const choices= Array.from(document.querySelectorAll(".choice-text"));
@@ -15,58 +15,59 @@ let availableQuestions=[]
 
 let questions= [
     { 
-       question:"Cual es la capital de Colombia",
-       choice1:"cali",
-       choice2:"medellin",
-       choice3:"bogota",
-       choice4:"palmira",
-       answer:3,
+       question:"las caleñas son",
+       choice1:"como las flores",
+       choice2:"como el mar",
+       choice3:"como el cielo",
+       choice4:"no se",
+       answer:1,
 },
 
 {  
-	   question:"cuanto es 4+4",
-       choice1:"6",
-       choice2:"12",
-       choice3:"4",
-       choice4:"8",
+	   question:"1 comentario en javascript",
+       choice1:"$$",
+       choice2:"/*",
+       choice3:"??",
+       choice4:"//",
        answer:4,
 
 },
 
 {
-	  question:"Hola en ingles",
-      choice1:"hello",
-      choice2:"hey bro",
-      choice3:"hola",
-      choice4:"Hi",
+	  question:"si quieres cortarte el cabello busca",
+      choice1:"un estilista",
+      choice2:"un mecanico",
+      choice3:"un cantante",
+      choice4:"un constructor",
       answer:1,
 },
 
 {
-	question:"cual es la montaña mas alta",
-    choice1:"Denali",
-    choice2:"everest",
-    choice3:"makalu",
-    choice4:"no se",
+	question:"cual es el mas alto de los amiferos",
+    choice1:"el leon",
+    choice2:"la jirafa",
+    choice3:"el oso",
+    choice4:"la cebra",
     answer:2,
 },
 
 {
-	question:"cual pais es una potencia",
-   choice1:"mexico",
-   choice2:"suiza",
-   choice3:"londres",
-   choice4:"Usa",
+	question:"a un carro a que se le llama gato",
+   choice1:"al conductor",
+   choice2:"al dueño",
+   choice3:"al pasajero",
+   choice4:"a una herramienta",
    answer:4,
 },
 {
-	question:"capital de italia",
-   choice1:"España",
-   choice2:"suiza",
-   choice3:"Roma",
-   choice4:"Usa",
-   answer:3,
+	question:"la anestesia de aplica al paciente",
+    choice1:"para que duerma",
+    choice2:"para el dolor",
+    choice3:"para la pereza",
+    choice4:"para la tristeza",
+    answer:2,
 }
+
 
 ]
 

@@ -1,4 +1,4 @@
- 
+
 
 const question= document.querySelector("#question");
 const choices= Array.from(document.querySelectorAll(".choice-text"));
@@ -15,63 +15,71 @@ let availableQuestions=[]
 
 let questions= [
     { 
-       question:"Cual es la capital de Colombia",
-       choice1:"cali",
-       choice2:"medellin",
-       choice3:"bogota",
-       choice4:"palmira",
+       question:"como se llama la celula nerviosa",
+       choice1:"corazon",
+       choice2:"gliales",
+       choice3:"neuronas",
+       choice4:"no se",
        answer:3,
 },
 
 {  
-	   question:"cuanto es 4+4",
-       choice1:"6",
-       choice2:"12",
-       choice3:"4",
-       choice4:"8",
+	   question:"pais entre Peru y Colombia",
+       choice1:"venezuela",
+       choice2:"brazil",
+       choice3:"uruguay",
+       choice4:"ecuador",
        answer:4,
 
 },
 
 {
-	  question:"Hola en ingles",
-      choice1:"hello",
-      choice2:"hey bro",
-      choice3:"hola",
-      choice4:"Hi",
-      answer:1,
+	  question:"que escribia un testador",
+      choice1:"un libro",
+      choice2:"la biblia",
+      choice3:"programacion",
+      choice4:"testamento",
+      answer:4,
 },
 
 {
-	question:"cual es la montaña mas alta",
-    choice1:"Denali",
-    choice2:"everest",
-    choice3:"makalu",
-    choice4:"no se",
-    answer:2,
+	question:"identidad secreta de don diego de la vega",
+    choice1:"capitan",
+    choice2:"policia",
+    choice3:"el zorro",
+    choice4:"civil",
+    answer:3,
 },
 
 {
-	question:"cual pais es una potencia",
-   choice1:"mexico",
-   choice2:"suiza",
-   choice3:"londres",
-   choice4:"Usa",
-   answer:4,
+	question:"que pajaro es el simbolo de la paz",
+   choice1:"cuervo",
+   choice2:"paloma",
+   choice3:"aguila",
+   choice4:"loro",
+   answer:2,
 },
 {
-	question:"capital de italia",
-   choice1:"España",
-   choice2:"suiza",
-   choice3:"Roma",
-   choice4:"Usa",
+	question:"que es HTML",
+   choice1:"hypertext markup lenguage",
+   choice2:"hyper mega lenguage",
+   choice3:"hibrid make up lenguage",
+   choice4:"marketin lenguage",
+   answer:1,
+},
+{
+	question:"que es JS",
+   choice1:"JAVA",
+   choice2:"JSON",
+   choice3:"JAVASCRIPT",
+   choice4:"NO SE",
    answer:3,
 }
 
 ]
 
 const SCORE_POINTS = 300
-const MAX_QUESTIONS = 6
+const MAX_QUESTIONS = 7
 
 startGame = () => {
 	questionCounter = 0
